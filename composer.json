@@ -1,0 +1,27 @@
+{
+    "name": "XHR-CONSULTING/phpws",
+    "description": "WebSocket Server and Client library for PHP",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Devristo",
+            "email": "chris@devristo.com"
+        },
+        {
+            "name": "James Cole",
+            "email": "james@firefly-iii.org"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Devristo\\Phpws\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">8.0",
+        "laminas/laminas-log": "~2",
+        "react/socket": "^1.0 || ^0.8.6",
+        "react/stream": "^1.0 || ^0.7.5",
+        "laminas/laminas-http": "~2"
+    }
+}
